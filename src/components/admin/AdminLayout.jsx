@@ -3,9 +3,9 @@ import { useEffect, useState } from "react"
 
 import Link from "next/link"
 import { ArrowRightIcon } from "lucide-react"
-import Loading from "../public/product/Loading"
 import AdminNavbar from "./AdminNavbar"
 import AdminSidebar from "./AdminSidebar"
+import Loading from "../public/product/Loading"
 
 
 const AdminLayout = ({ children }) => {

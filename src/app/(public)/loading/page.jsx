@@ -1,8 +1,8 @@
 'use client'
 
+import Loading from "@/components/public/product/Loading"
 import { useRouter } from "next/navigation"
 import { useEffect } from "react"
-import Loading from "../../../components/product/Loading"
 
 export default function LoadingPage() {
     const router = useRouter()
