@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 import { MailIcon, MapPinIcon } from "lucide-react";
 import Image from "next/image";
 import { dummyStoreData, productDummyData } from "@/assets/assets";
-import ProductCard from "../../../../components/product/ProductCard";
-import Loading from "../../../../components/product/Loading";
+import ProductCard from "@/components/public/product/ProductCard";
+import Loading from "@/components/public/product/Loading";
+
 
 export default function StoreShop() {
   const { username } = useParams();
